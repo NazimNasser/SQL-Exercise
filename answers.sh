@@ -17,7 +17,7 @@ name TEXT NOT NULL UNIQUE,
 Age INT,
 Gender TEXT,
 Points INT,
-graduation date
+graduation TEXT
 );
 
 # 1
@@ -25,7 +25,7 @@ graduation date
 INSERT INTO graduates(Name,Age,Gender,Points)
 SELECT name,Age,Gender,Points
 FROM students
-WHERE name="Layal"
+WHERE name="Layal";
 
 # 2
 
